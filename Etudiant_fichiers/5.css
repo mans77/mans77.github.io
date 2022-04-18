@@ -1,0 +1,372 @@
+#mbrs-connectButtonIcon .viafoura,
+#mbrs-connectButtonInline .viafoura,
+#mbrs-headermini-notificationBell .viafoura {
+    display: inline-block;
+    background: transparent
+}
+
+#mbrs-connectButtonIcon .viafoura {
+    margin: 0 0 0 .375rem;
+    vertical-align: bottom
+}
+
+#mbrs-connectButtonInline .viafoura {
+    flex: 0;
+    margin: 0 1.4rem 0 -.7rem
+}
+
+#mbrs-headermini-notificationBell .viafoura {
+    margin: 0 .375rem
+}
+
+body .viafoura {
+    --mbrs-accent-color: var(--mbrs-color-theme-default);
+    --mbrs-accent-color-light: var(--mbrs-color-theme-default);
+    --mbrs-text-on-accent-color: #fff
+}
+
+body .viafoura,
+body .viafoura .vf-primary-hoverable,
+body .viafoura .vf-primary-hoverable:focus,
+body .viafoura .vf-tray-wrapper,
+body .viafoura body {
+    color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-tray-wrapper .vf-tray,
+body .viafoura .vf-tray-wrapper .vf-tray-component,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation--sticky>.vf-tabbed-nav,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-tray-navigation .vf-tabbed-subnav .vf-tabbed-nav {
+    background: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-nav-button,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-nav-button:active,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-nav-button:focus,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-nav-button:hover,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-tray-nav-button,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-tray-nav-button:active,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-tray-nav-button:focus,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-tray-nav-button:hover,
+body .viafoura .vf-tray-wrapper .vf-tray-section-header,
+body .viafoura .vf-tray-wrapper .vf-tray-trigger,
+body .viafoura .vf-tray-wrapper .vf-tray-trigger:hover,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-icon-button,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-notification-record,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-num-comments {
+    color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-tray-wrapper .vf-tray-navigation--sticky>.vf-tabbed-nav,
+body .viafoura .vf-tray-wrapper .vf-tray-navigation .vf-tabbed-subnav>.vf-tabbed-nav,
+body .viafoura .vf-tray-wrapper .vf-tray-section-header,
+body .viafoura .vf-tray-wrapper .vf-tray .record,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-counts-list,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-notification-record,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-setting-module__title {
+    border-color: var(--mbrs-color-borders)
+}
+
+body .viafoura .vf-tray-wrapper .vf-tray .vf-nav-label {
+    color: var(--mbrs-color-primary)!important
+}
+
+body .viafoura .vf-tray-wrapper .vf-tray .timestamp,
+body .viafoura .vf-tray-wrapper .vf-tray .vf-setting-module__title {
+    color: var(--mbrs-color-primary)
+}
+
+body .viafoura .vf-image-wrapper.vf-item-layout__image.vf-crop {
+    width: 100%;
+    height: auto;
+    max-width: 6.25rem
+}
+
+body .viafoura .vf-image-wrapper.vf-item-layout__image.vf-crop>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%
+}
+
+body .viafoura .vf-tray-trigger.vf-icon-button {
+    padding: .4em 0
+}
+
+body .viafoura .vf-tray-trigger.vf-icon-button:after,
+body .viafoura .vf-tray-trigger.vf-icon-button:before {
+    content: none
+}
+
+body .viafoura .vf-tray-trigger.vf-icon-button:active,
+body .viafoura .vf-tray-trigger.vf-icon-button:focus,
+body .viafoura .vf-tray-trigger.vf-icon-button:hover {
+    color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-tray-trigger.vf-icon-button--round-icon--accent {
+    background: transparent
+}
+
+body .viafoura .vf-tray-trigger .vf-icon.vf-icon-small {
+    font-size: 1rem;
+    width: 1.6rem;
+    height: 1.6rem
+}
+
+body .viafoura .vf-tray-trigger .vf-tray-count {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    top: 0;
+    left: auto;
+    right: -10%;
+    background-color: #cc190f;
+    line-height: 1.5em;
+    min-width: 1rem;
+    padding: .0625rem .1875rem;
+    border-radius: 5rem
+}
+
+body .viafoura .vf-tray-trigger .vf-tray-count .count-badge__inner {
+    -webkit-transform: none;
+    transform: none;
+    position: static
+}
+
+body .viafoura .vf-accent-bg-colour {
+    background-color: var(--mbrs-color-theme-default);
+    background-color: var(--color-theme-default);
+    background-color: var(--mbrs-accent-color, var(--color-theme-default));
+    color: #fff;
+    color: var(--mbrs-text-on-accent-color, #fff);
+    fill: currentColor
+}
+
+body .viafoura .vf-highlight-colour {
+    background-color: #cc190f
+}
+
+body .viafoura .vf-primary-colour {
+    color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-primary-border-colour {
+    border-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-primary-bg-colour {
+    background-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-primary-fill-colour {
+    fill: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-primary-text-colour {
+    color: #fff
+}
+
+body .viafoura .vf-primary-text-border-colour {
+    border-color: #fff
+}
+
+body .viafoura .vf-primary-text-bg-colour {
+    background-color: #fff
+}
+
+body .viafoura .vf-primary-text-fill-colour {
+    fill: #fff
+}
+
+body .viafoura .vf-primary-notification-colour {
+    color: #f8f8f8
+}
+
+body .viafoura .vf-primary-notification-border-colour {
+    border-color: #f8f8f8
+}
+
+body .viafoura .vf-primary-notification-bg-colour {
+    background-color: #f8f8f8
+}
+
+body .viafoura .vf-primary-notification-bg-colour:hover {
+    background-color: #f1f1f1
+}
+
+body .viafoura .vf-primary-notification-bg-colour .vf-user-avatar {
+    border-color: #f8f8f8
+}
+
+body .viafoura .vf-primary-notification-fill-colour {
+    fill: #f8f8f8
+}
+
+body .viafoura .vf-control-colour {
+    color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-control-border-colour {
+    border-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-control-bg-colour {
+    background-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-control-fill-colour {
+    fill: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-complement-colour {
+    color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-complement-border-colour {
+    border-color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-complement-bg-colour {
+    background-color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-complement-fill-colour {
+    fill: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-secondary-colour {
+    color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-secondary-border-colour {
+    border-color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-secondary-bg-colour {
+    background-color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-secondary-fill-colour {
+    fill: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-secondary-notification-colour {
+    color: #f8f8f8
+}
+
+body .viafoura .vf-secondary-notification-border-colour {
+    border-color: #f8f8f8
+}
+
+body .viafoura .vf-secondary-notification-bg-colour {
+    background-color: #f8f8f8
+}
+
+body .viafoura .vf-secondary-notification-bg-colour:hover {
+    background-color: #f1f1f1
+}
+
+body .viafoura .vf-secondary-notification-bg-colour .vf-user-avatar {
+    border-color: #f8f8f8
+}
+
+body .viafoura .vf-secondary-notification-fill-colour {
+    fill: #f8f8f8
+}
+
+body .viafoura .vf-secondary-text-colour {
+    color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-secondary-text-border-colour {
+    border-color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-secondary-text-bg-colour {
+    background-color: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-secondary-text-fill-colour {
+    fill: var(--mbrs-btn-text-color)
+}
+
+body .viafoura .vf-heading-colour {
+    color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-heading-border-colour {
+    border-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-heading-bg-colour {
+    background-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-heading-fill-colour {
+    fill: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-empty-colour {
+    color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-empty-border-colour {
+    border-color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-empty-bg-colour {
+    background-color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-empty-bg-colour .vf-user-avatar {
+    border-color: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-empty-bg-colour .vf-notification-status {
+    background-color: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-empty-fill-colour {
+    fill: var(--mbrs-color-bg-primary)
+}
+
+body .viafoura .vf-status.vf-warning-bg-colour {
+    background-color: #fcede1;
+    color: #b05105
+}
+
+body .viafoura .vf-status.vf-info-bg-colour {
+    background-color: #e0ecfb;
+    color: #0b4892
+}
+
+body .viafoura .vf-status.vf-success-bg-colour {
+    background-color: #ebfbdd;
+    color: #3c7a09
+}
+
+body .viafoura .vf-control-strong-hoverable {
+    color: var(--mbrs-color-theme-default);
+    fill: var(--mbrs-color-theme-default)
+}
+
+body .viafoura .vf-control-strong-hoverable:focus,
+body .viafoura .vf-control-strong-hoverable:hover {
+    fill: #fff;
+    color: #fff
+}
+
+body .viafoura .vf-client-settings-button-logout {
+    display: none!important
+}
+
+body .viafoura .vf-client-settings-email-notifications svg #Settings {
+    fill: var(--mbrs-color-theme-default)!important
+}
+
+body .viafoura .vf-client-settings-avatar-section,
+body .viafoura .vf-client-settings-form-section,
+body .viafoura h1.vf-client-settings-form-profile-header {
+    display: none
+}

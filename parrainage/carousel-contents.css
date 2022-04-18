@@ -1,0 +1,293 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* Pagination */
+.filtered-contents-carousel .carousel-pagination,
+.ametys-cms-content.myfavorites .carousel-pagination{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: inline-block;
+    bottom: 0;
+}
+
+.ametys-cms-content.myfavorites .carousel-pagination{ bottom: 16px; }
+
+#sidebar .filtered-contents-carousel .carousel-pagination,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination{ position: static; text-align: left;  }
+
+.filtered-contents-carousel.filtered-contents-link .carousel-pagination{ 
+	top: 26px;
+	right: auto;
+	text-align: right;
+	width:150px;
+	left: 0;
+	bottom: auto;
+}
+
+.filtered-contents-carousel.filtered-contents-link .carousel-pagination a{ display: none; }
+
+/* .filtered-contents-carousel.filtered-contents-abstract .carousel-pagination, */
+/* .filtered-contents-carousel.filtered-contents-succinct .carousel-pagination{ */
+/* 	left: auto; */
+/* 	top: 55px; */
+/* 	text-align: right; */
+/* } */
+
+.ametys-cms-content.myfavorites .carousel-pagination{
+	left: 0;
+    right: 0;
+    text-align: center;
+    top: auto;
+}
+.filtered-contents-carousel.filtered-contents-abstract .carousel-pagination .carousel-control,
+.filtered-contents-carousel.filtered-contents-succinct .carousel-pagination .carousel-control,
+.ametys-cms-content.myfavorites .carousel-pagination .carousel-control{ display: none; }
+
+.filtered-contents-carousel.filtered-contents-abstract .carousel-pagination .slide-control,
+.filtered-contents-carousel.filtered-contents-succinct .carousel-pagination .slide-control,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control,
+.filtered-contents-carousel.filtered-contents-link .carousel-pagination .slide-control{ margin-right: 20px; }
+
+.filtered-contents-carousel .carousel-pagination p,
+.ametys-cms-content.myfavorites .carousel-pagination p{
+    display: inline-block;
+/*     height: 12px; */
+    -webkit-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    transform: translateY(2px);
+    margin-left: 4px;
+}
+
+.filtered-contents-carousel .carousel-pagination p li,
+.ametys-cms-content.myfavorites .carousel-pagination p li{
+    display: inline;
+}
+
+.filtered-contents-carousel .carousel-pagination p a,
+.ametys-cms-content.myfavorites .carousel-pagination p a{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #aeb0bc;
+    display: inline-block;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination p a,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination p a{ display: none; }
+
+.filtered-contents-carousel .carousel-pagination p a span,
+.ametys-cms-content.myfavorites .carousel-pagination p a span{
+	position: absolute;
+	left:-2000px;
+	top:-2000px;
+}
+
+.filtered-contents-carousel .carousel-pagination p a.active,
+.ametys-cms-content.myfavorites .carousel-pagination p a.active{
+    background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+/* .filtered-contents-link */
+.filtered-contents-carousel.filtered-contents-link .carousel-pagination p{
+	margin-right:15px;
+}
+
+@media (min-width: 768px) {
+	.index .filtered-contents-carousel.filtered-contents-link .carousel-pagination p{
+		margin-right:35px;
+	}
+	
+	.filtered-contents-carousel.filtered-contents-link .carousel-pagination{
+		right: 0;
+		left: auto;
+	}
+}
+
+/* slide control buttons */
+.filtered-contents-carousel .carousel-pagination .slide-control.play,
+.filtered-contents-carousel .carousel-pagination .slide-control.play,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.play{
+    width: 10px;
+    height: 14px;
+    margin-right:20px;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.filtered-contents-carousel .carousel-pagination .slide-control.pause,
+.filtered-contents-carousel .carousel-pagination .slide-control.pause,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.pause {
+/*     margin-left: 4px; */
+    margin-right:20px;
+    vertical-align: middle;
+}
+
+.filtered-contents-carousel input.carousel-control,
+.ametys-cms-content.myfavorites input.carousel-control {
+/* 	position: absolute;	 */
+	height: 42px;
+	width: 24px;
+	border-width:0;
+	text-indent:-999px;	
+	cursor: pointer;
+	padding: 0;
+/* 	top: 120px;		 */
+}
+
+.filtered-contents-carousel .carousel-control, 
+.filtered-contents-carousel .carousel-pagination .slide-control,
+.ametys-cms-content.myfavorites .carousel-control, 
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control{
+    display: inline-block;
+    text-indent: -9999px;
+    text-transform: capitalize;
+/*     position: absolute; */
+}
+
+.filtered-contents-carousel button.slide-control,
+.ametys-cms-content.myfavorites button.slide-control {
+    bottom: 83px;
+    left: 150px;
+    background: rgba(0, 0, 0, 0) url("../img/carousel-lecture-big.png") no-repeat scroll 0 0;
+    border: 0 none;
+    width: 19px;
+    height: 27px;
+}
+
+.filtered-contents-carousel button.slide-control:hover,
+.ametys-cms-content.myfavorites button.slide-control:hover {
+    background-image:url("../img/carousel-lecture-big-on.png");
+}
+
+.filtered-contents-carousel input.carousel-control.carousel-next,
+.ametys-cms-content.myfavorites input.carousel-control.carousel-next {
+    background: rgba(0, 0, 0, 0) url("../img/carousel-next-big.png") no-repeat scroll 0 0;
+    border: 0 none;
+    width: 21px;
+    height: 34px;
+    margin-left: 11px;
+    margin-right: 10px;
+    top: 31px;
+    left: 290px;
+}
+
+.filtered-contents-carousel input.carousel-control.carousel-previous,
+.ametys-cms-content.myfavorites input.carousel-control.carousel-previous {
+    background: rgba(0, 0, 0, 0) url("../img/carousel-previous-big.png") no-repeat scroll 0 0;
+    border: 0 none;
+    width: 21px;
+    height: 34px;
+    top: 31px;
+    left: 260px;
+}
+
+.filtered-contents-carousel .carousel-control.next:hover,
+.ametys-cms-content.myfavorites .carousel-control.next:hover {
+    background-image: url("../img/carousel-next-big-on.png");
+}
+
+.filtered-contents-carousel .carousel-control.previous:hover,
+.ametys-cms-content.myfavorites .carousel-control.previous:hover {
+    background-image: url("../img/carousel-previous-big-on.png") ;
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination,
+#sidebar .filtered-contents-carousel .carousel-pagination{
+    display: inline-block;
+    margin-top: 11px;
+}
+
+#sidebar .filtered-contents-carousel .carousel-control, 
+#sidebar .filtered-contents-carousel .carousel-pagination .slide-control,
+#sidebar .ametys-cms-content.myfavorites .carousel-control, 
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination .slide-control{
+/*     float: left; */
+    display: inline-block;
+    text-indent: -9999px;
+    text-transform: capitalize;
+}
+
+#sidebar .filtered-contents-carousel .carousel-control.previous,
+#sidebar .ametys-cms-content.myfavorites .carousel-control.previous{
+    background: url('../img/carousel-previous.png') no-repeat 0 0 transparent;
+    width: 15px;
+    height: 25px;
+    border: 0 none;
+}
+
+#sidebar .filtered-contents-carousel .carousel-control.previous:hover,
+#sidebar .ametys-cms-content.myfavorites .carousel-control.previous:hover{
+    background-image: url('../img/carousel-previous-on.png');
+}
+
+#sidebar .filtered-contents-carousel .carousel-control.next,
+#sidebar .ametys-cms-content.myfavorites .carousel-control.next{
+    background: url('../img/carousel-next.png') no-repeat 0 0 transparent;
+    width: 15px;
+    height: 25px;
+    border: 0 none;
+    margin-left: 11px;
+    margin-right: 10px;
+}
+
+#sidebar .filtered-contents-carousel .carousel-control.next:hover,
+#sidebar .ametys-cms-content.myfavorites .carousel-control.next:hover{
+    background-image: url('../img/carousel-next-on.png');
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination .slide-control.pause,
+.filtered-contents-carousel .carousel-pagination .slide-control.pause,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination .slide-control.pause,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.pause{
+    background: url('../img/carousel-lecture.png') no-repeat 0 0 transparent;
+    width: 12px;
+    height: 17px;
+    text-indent: -9999px;
+    text-transform: capitalize;
+    border: 0 none;
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination .slide-control.pause:hover,
+.filtered-contents-carousel .carousel-pagination .slide-control.pause:hover,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination .slide-control.pause:hover,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.pause:hover{
+    background-image: url('../img/carousel-lecture-on.png');
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination .slide-control.play,
+.filtered-contents-carousel .carousel-pagination .slide-control.play,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination .slide-control.play,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.play{
+    background: url('../img/carousel-pause.png') no-repeat 0 2px transparent;
+    width: 12px;
+    height: 17px;
+    border: 0 none;
+    text-indent: -9999px;
+    text-transform: capitalize;
+/*     margin-top: 4px; */
+}
+
+#sidebar .filtered-contents-carousel .carousel-pagination .slide-control.play:hover,
+.filtered-contents-carousel .carousel-pagination .slide-control.play:hover,
+#sidebar .ametys-cms-content.myfavorites .carousel-pagination .slide-control.play:hover,
+.ametys-cms-content.myfavorites .carousel-pagination .slide-control.play:hover{
+    background-image: url('../img/carousel-pause-on.png');
+}

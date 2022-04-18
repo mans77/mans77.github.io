@@ -1,0 +1,628 @@
+.header-img{
+    background: url('../img/image_rubrique.jpg') no-repeat center center;
+    height: 156px;
+    line-height: 156px;
+}
+.header-img.category-1{
+    background-image: url('../img/image_rubrique1.jpg');
+}
+.header-img.category-2{
+    background-image: url('../img/image_rubrique2.jpg');
+}
+.header-img.category-3{
+    background-image: url('../img/image_rubrique3.jpg');
+}
+.header-img.category-4{
+    background-image: url('../img/image_rubrique4.jpg');
+}
+.header-img.category-5{
+    background-image: url('../img/image_rubrique5.jpg');
+}
+.header-img.category-6{
+    background-image: url('../img/image_rubrique6.jpg');
+}
+.header-img.category-7{
+    background-image: url('../img/image_rubrique7.jpg');
+}
+.header-img.category-8{
+    background-image: url('../img/image_rubrique8.jpg');
+}
+.header-img.category-9{
+    background-image: url('../img/image_rubrique9.jpg');
+}
+.header-img.category-10{
+    background-image: url('../img/image_rubrique10.jpg');
+}
+.header-img > div{ background-color: rgba(0,0,0,.5); }
+.header-img h1 {
+    color: #fff;
+    font-size: 3.8em;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+/*     height: 78px; */
+	display: inline-block;
+	vertical-align: middle;
+    position: relative;
+/*     top: -50%; */
+/*     -webkit-transform: translateY(50%); */
+/*     -ms-transform: translateY(50%); */
+/*     transform: translateY(50%); */
+}
+.hmenu .submenu .img.category1 {
+	background-image: url('../img/rubrique1.jpg');
+}
+.hmenu .submenu .img.category2 {
+	background-image: url('../img/rubrique2.jpg');
+}
+.hmenu .submenu .img.category3 {
+	background-image: url('../img/rubrique3.jpg');
+}
+.hmenu .submenu .img.category4 {
+	background-image: url('../img/rubrique4.jpg');
+}
+.hmenu .submenu .img.category5 {
+	background-image: url('../img/rubrique5.jpg');
+}
+.hmenu .submenu .img.category6 {
+	background-image: url('../img/rubrique6.jpg');
+}
+.hmenu .submenu .img.category7 {
+	background-image: url('../img/rubrique7.jpg');
+}
+.hmenu .submenu .img.category8 {
+	background-image: url('../img/rubrique8.jpg');
+}
+.hmenu .submenu .img.category9 {
+	background-image: url('../img/rubrique9.jpg');
+}
+.hmenu .submenu .img.category10 {
+	background-image: url('../img/rubrique10.jpg');
+}
+.share #social,
+.share #share{
+    border-top: 1px solid #e4e4e4;
+    margin-top: 30px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.share #social li,
+.share #share li{
+    display: inline;
+}
+
+.share #social a,
+.share #share a{
+    width: 41px;
+    height: 41px;
+    background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.share #social a i,
+.share #share a i{
+    color: #fff;
+    font-size: 2em;
+    top: -50%;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.share #social a.share_print,
+.share #share a.share_print{
+    background-color: #D82262 /* AMETYS ("default.default.bgcolor.complementary") */;
+}
+
+.read-more-zone{
+    margin-bottom: 35px;
+}
+
+.read-more-zone p{
+    margin: 0;
+    color: #60616d;
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.read-more-zone .ametys-cms-content{
+    padding: 27px 24px 18px;
+    margin-top: 17px;
+    background-color: #D82262 /* AMETYS ("default.default.bgcolor.complementary") */;
+	box-sizing: border-box;
+}
+
+.read-more-zone .ametys-cms-content.view-link,
+.read-more-zone .ametys-cms-content.view-succinct{ min-height: auto; padding-bottom: 24px; }
+
+.read-more-zone .ametys-cms-content h3{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1em;
+    margin: 0;
+}
+
+.read-more-zone .ametys-cms-content .content-abstract{
+    color: #60616d;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.1em;
+}
+
+.read-more-zone .ametys-cms-content .content-read-more{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.read-more-zone .ametys-cms-content .content-read-more a{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+.read-more-zone .rose .ametys-cms-content h3,
+.read-more-zone .rose .ametys-cms-content .content-abstract,
+.read-more-zone .rose .ametys-cms-content a:link,
+.read-more-zone .rose .ametys-cms-content a:visited,
+.read-more-zone .rose .ametys-cms-content a:hover,
+.read-more-zone .rose .ametys-cms-content a:focus,
+.read-more-zone .rose .ametys-cms-content .content-read-more a{
+    color: #fff;
+}
+
+.read-more-zone .rose .ametys-cms-content h3{
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+#sidebar .container-sidebar{
+	border-top: 1px solid #e4e4e4;
+}
+
+#sidebar .infos_utiles .ametys-cms-content{
+    background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    color: #fff;
+}
+
+#sidebar .infos_utiles{
+    border-top: 1px solid #e4e4e4;
+    padding-top: 35px;
+}
+
+#sidebar .infos_utiles .ametys-cms-content{
+    margin-bottom: 14px;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h3{
+    border: 0 none;
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h3 .content-title{
+    color:#fff;
+    width: 100%;
+    font-size: 2em;
+    line-height: 51px;
+/*     padding-left: 17px; */
+    padding-right: 14px;
+    margin: 0;
+    font-weight: 600;
+    display: block;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h3 .content-subtitle{
+	font-size: 1.7em;
+	font-weight: normal;
+	line-height: 1;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h3 .content-title:after {
+    float: right;
+    margin-top: 4px;
+/*     margin-right: 12px; */
+    content: "\f107";
+    display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size:1.3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h3.ui-state-active .content-title:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#sidebar .infos_utiles .ametys-cms-content{
+    padding: 0 18px;
+}
+
+#sidebar .infos_utiles .ametys-cms-content h4{
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    font-weight: 600;
+    margin: 0;
+}
+
+#sidebar .infos_utiles .ametys-cms-content p{
+    color: #fff;
+/*     font-size: 2em; */
+    line-height: 1em;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#sidebar .infos_utiles .ametys-cms-content p a:link,
+#sidebar .infos_utiles .ametys-cms-content p a:visited,
+#sidebar .infos_utiles .ametys-cms-content p a:hover,
+#sidebar .infos_utiles .ametys-cms-content p a:focus,
+#sidebar .infos_utiles .ametys-cms-content.view-link .content-link a:link, 
+#sidebar .infos_utiles .ametys-cms-content.view-link .content-link a:visited{
+    color: #fff!important;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#sidebar .ametys-cms-content,
+#sidebar .ametys-cms-service,
+.ametys-cms-content.program .bloc,
+.ametys-cms-content.course .bloc{
+    background-color: #f5f6fa;
+    padding: 20px 20px 18px;
+    margin-bottom: 18px;
+}
+
+#sidebar .ametys-cms-service .ametys-cms-content{ padding: 0; margin: 0;}
+
+#sidebar .ametys-cms-content h3,
+.ametys-cms-content.program .bloc h2{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+#sidebar .ametys-cms-content h4,
+.ametys-cms-content.program .bloc h3{
+    color: #60616d;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1em;
+}
+
+#sidebar .ametys-cms-content .content-read-more,
+.ametys-cms-content.program .bloc .content-read-more{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    margin-top: 15px;
+}
+
+#sidebar .ametys-cms-content.view-link .content-read-more{
+	margin-top: 0;
+}
+
+#sidebar .ametys-cms-content .center-wrap{
+    position: relative;
+}
+
+#sidebar .ametys-cms-content .content-read-more a,
+.ametys-cms-content.program .bloc .content-read-more a{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+#sidebar .ametys-cms-content .content-read-more a:hover,
+.ametys-cms-content.program .bloc .content-read-more a:hover{
+    color: #60616d;
+    text-decoration: none;
+}
+
+#sidebar .ametys-cms-content .content-date{
+    color: #60616d;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0;
+}
+
+#sidebar .ametys-cms-content .content-date .separator{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+/* /Styles */
+
+@media screen and (min-width: 768px) {
+    .header-img{
+        height: 128px;
+        line-height:128px;
+    }
+    
+/*     .header-img h1 { */
+/*         height: 64px; */
+/*     } */
+    
+    .breadcrumb{
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #60616d;
+        margin-top: 25px;
+    }
+    
+    .breadcrumb ul{
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: 30px;
+    }
+    
+    .breadcrumb.noborder ul{
+        border-bottom : 0 none;
+        padding-bottom: 0;
+    }
+    
+    .breadcrumb li{
+        display: inline;
+    }
+    
+    .breadcrumb li:not(.first):before{
+        content: " / ";
+    }
+    
+    .breadcrumb a{
+        color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    }
+    
+    .share #social,
+    .share #share {
+        margin-top: 38px;
+        padding-top: 12px;
+        text-align: right;
+        margin-bottom: 8px;
+    }
+    
+    .share #social a,
+    .share #share a {
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 0;
+        width: 30px;
+    }
+    
+    .share #social a i,
+    .share #share a i {
+        font-size: 1.5em;
+    }
+    
+    .read-more-zone .ametys-cms-content p {
+        font-size: 1.5em;
+        color: #ffffff;
+        font-weight: normal;
+        margin: 10px 0;
+    }
+    
+    .read-more-zone .ametys-cms-content{
+        margin-top: 15px;
+/*         padding: 0; */
+		position: relative;
+		min-height:206px;
+    }
+    
+    .read-more-zone .ametys-cms-content.view-abstract{ padding-left: 45%; }
+    
+	.read-more-zone .ametys-cms-content.view-abstract .content-illustration img
+	{
+		position: absolute;
+		top:0;
+		left:0;
+		margin: 0;
+		max-width:280px;
+	}
+    
+    .read-more-zone .ametys-cms-content .content-read-more {
+        margin-top: 6px;
+    }
+    
+    .read-more-zone .rose .ametys-cms-content h3 {
+        margin-bottom: 7px;
+    }
+    
+    #sidebar .container-sidebar{ padding-top: 20px; }
+    
+    #sidebar .vertical-menu{
+        margin-bottom: 26px;
+    }
+    
+    #sidebar .vertical-menu h2{
+        margin: 0;
+        color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+        font-size: 2.4em;
+        font-weight: 800;
+        line-height: 1em;
+        margin-top: 26px;
+    }
+    
+    #sidebar .vertical-menu > ul > li {
+        border-bottom: 1px solid #e4e4e4;
+    }
+    
+    #sidebar .vertical-menu > ul > li > ul {
+        border-top: 1px solid #e4e4e4;
+        padding-top: 2px;
+        padding-bottom: 6px;
+    }
+    
+    #sidebar .vertical-menu ul > li > a,
+    #sidebar .vertical-menu ul > li > span{
+        color: #60616d;
+        display: inline-block;
+        font-size: 1.6em;
+        font-weight: 400;
+/*         line-height: 2.7em; */
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+    
+    #sidebar .vertical-menu li.current > a,
+    #sidebar .vertical-menu li.current > span{
+        font-weight: 600;
+    }
+    
+    #sidebar .vertical-menu a:hover,
+    #sidebar .vertical-menu span:hover{
+        color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+        text-decoration: none;
+    }
+    
+    #sidebar .vertical-menu > ul > li > span:before{
+/*         padding-left: 17px; */
+        content: "\f107";
+        font-family: FontAwesome;
+        position: absolute;
+        right: 17px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    #sidebar .vertical-menu > ul > li.active > span:before{
+	    -webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	    transform: rotate(180deg);
+    }
+    
+    #sidebar .vertical-menu > ul > li > ul > li > a {
+        line-height: 1em;
+        padding-bottom: 11px;
+        padding-left: 17px;
+        padding-top: 16px;
+        width: 80%;
+    }
+    
+    #sidebar .vertical-menu > ul > li > ul > li > a:before{
+        padding-left: 17px;
+        content: "\f105";
+        font-family: FontAwesome;
+        position: absolute;
+        left: -17px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content h3 .content-title{
+        font-size: 1.6em;
+        line-height: normal;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content h4,
+    #sidebar .infos_utiles .ametys-cms-content p{
+        font-size: 1.7em;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content h3 .content-title i {
+        font-size: 1.3em;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content p {
+        margin-top: 6px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content p + h4{
+        margin-top: 20px;
+    }
+    
+    #sidebar .infos_utiles .ametys-cms-content>div {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .breadcrumb {
+        margin-top: 30px;
+    }
+    
+    .breadcrumb ul {
+        padding-bottom: 27px;
+        padding-right: 50px;
+    }
+    
+    .article h2 .content-title {
+        line-height: 1.4em;
+    }
+    
+    #sidebar .container-sidebar,
+    #sidebar .infos_utiles{
+        border-top: 0 none;
+        padding-top: 10px !important;
+        margin-top:0;
+    }
+    
+    #sidebar .vertical-menu {
+        margin-bottom: 11px;
+    }
+    
+    #sidebar .vertical-menu h2 {
+        margin-top: 13px;
+    }
+    
+    #sidebar .vertical-menu > ul > li > ul > li > a{
+        width: 100%;
+    }
+    
+    #sidebar .infos_utiles{
+        padding-top: 0;
+    }
+    
+    #sidebar .ametys-cms-content,
+    .ametys-cms-content.program .bloc {
+        padding-right: 17px;
+    }
+    
+    #sidebar .ametys-cms-content h3,
+    .ametys-cms-content.program .bloc h2 {
+        line-height: 1.2em;
+    }
+    
+    .read-more-zone .ametys-cms-content{
+    	min-height: 147px;
+    }
+    .read-more-zone .content-illustration{
+        display: block;
+/*         width: 50%; */
+        margin-right: 21px;
+        float: left;
+    }
+    
+/*     .read-more-zone .col-xs-12:not(.rose) .view-abstract { */
+/*         padding: 0; */
+/*         display: inline-block; */
+/*     } */
+    
+/*     .read-more-zone .col-xs-12:not(.rose) .view-abstract h3 { */
+/*         padding-top: 20px; */
+/*     } */
+    
+    .read-more-zone .rose .ametys-cms-content .content-abstract {
+        margin-bottom: 11px;
+        margin-top: 12px;
+    }
+}

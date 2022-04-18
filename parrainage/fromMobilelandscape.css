@@ -1,0 +1,34 @@
+@media screen and (min-width: 480px) {
+    
+    /* header */
+    
+    #header_bottom #logo img{
+/*         width: 205px; */
+        height: 110px;
+    }
+    
+    #menu_acces li{
+        width: 33.33%
+    }
+    
+    /* /header */
+    
+    /* footer */
+    
+    .footer .social ul li a{
+        width: 77px;
+        height: 77px;
+    }
+    
+    .footer .social ul li a i{
+        font-size: 34px;
+    }
+    
+    #header_top .direct-access a,
+    #header_top .direct-access-orgunit .direct-access-sub{
+        font-size: 1.3em;
+    }
+    
+    /* /footer */
+    
+}

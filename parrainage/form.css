@@ -1,0 +1,371 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/*
+ * CSS FOR FORMS
+ */
+ 
+.button 
+{
+	display: inline; 
+}
+
+.button input 
+{
+	display: inline-block;
+	margin-left: 10px;
+	width: auto !important;
+}
+
+.field .input, 
+.field .select
+{
+	display: block;
+	margin-right: 0;
+	float: right;
+}
+
+.field .label 
+{
+	float: left;
+	display: inline-block;
+}
+
+.field-end 
+{
+	clear: both;	
+}
+
+.mandatory-marker 
+{
+	color: red;
+	margin-left: 3px;
+}
+
+fieldset 
+{
+	padding: 3px;
+	margin-bottom: 12px;
+}
+
+.hmenu-form 
+{
+	float: none;
+	padding-top: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;	
+}
+
+.field
+{
+	position: relative;
+/* 	margin-bottom: 13px; */
+}
+
+.field
+{
+	text-align: left;
+}
+.button 
+{
+    text-align: right;
+}
+
+.field .select 
+{
+	display: block;
+	margin-right: 0;
+	float: right;
+}
+
+.field .invalid
+{
+    background: #FFFBDE;
+    border: 1px solid #FF0000;
+    border-radius: 4px;
+}
+.ametys-cms-content form .invalid
+{
+    border: 1px solid #FF0000;
+    border-radius: 4px;
+}
+
+/* custom select */
+.ui-selectmenu-button,
+form select,
+form input[type='text']{
+    width: 100%!important;
+/*     max-width: 346px; */
+    margin-right: 13px;
+    min-height: 49px;
+    background-color: #fff;
+    border: 1px solid #d3d1d1;
+    line-height: 49px;
+    color: #60616d;
+    font-family: "Source Sans Pro";
+    font-size: 1.6em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 12px;
+    outline: 0 none;
+/*     margin-bottom: 4%; */
+}
+
+.ametys-cms-content form input[type='submit']{ max-width: 46%; }
+
+.ui-selectmenu-button .ui-selectmenu-text{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.ui-selectmenu-button .ui-selectmenu-text:after{
+    content: "\f107";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0;
+    color: #000;
+    font-size: 2em;
+}
+.ui-selectmenu-menu ul:after{
+    content: "\f107";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 12px;
+    color: #000;
+    font-size: 2em;
+    top:0;
+}
+
+.ui-selectmenu-menu{
+    color: #60616d;
+    font-family: "Source Sans Pro";
+    font-size: 1.6em;
+    z-index: 2000;
+    background: #fff;
+    border: 1px solid #d3d1d1;
+}
+
+.ui-selectmenu-menu ul {
+    background: #ffffff none repeat scroll 0 0;
+    display: inline-block;
+    margin-top: -49px;
+    position: relative;
+}
+
+.ui-selectmenu-menu ul li{
+    width: 100% !important;
+    padding: 0 12px;
+    display: inline-block;
+/*     height: 37px; */
+    line-height: 37px;
+    cursor: pointer;
+    padding-left: 15px !important; 
+}
+
+.ui-selectmenu-menu ul li:hover,
+.ui-selectmenu-menu ul li.ui-state-focus{
+    color:#fff !important;
+    background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+ .ui-selectmenu-menu ul li.ui-selectmenu-optgroup,
+ .ui-selectmenu-menu ul li.ui-selectmenu-optgroup,
+.ui-selectmenu-menu ul li.ui-selectmenu-optgroup:hover,
+.ui-selectmenu-menu ul li.ui-selectmenu-optgroup.ui-state-focus{
+	background-color: #ffffff;
+	color: #0084bb !important;
+	font-weight: 800;
+	margin-top: 10px !important;
+}
+
+.ui-menu {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+
+.ui-selectmenu-menu .ui-menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 1px;
+    max-height: 200px;
+}
+
+.ui-selectmenu-menu {
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+.ui-selectmenu-open {
+    display: block;
+}
+
+/* INFOS */
+form .info
+{
+	font-style: italic;
+ 	font-size: 0.9em;
+ 	clear: both;
+}
+
+form .info p
+{
+	margin: 0 !important;
+}
+
+.error
+{
+	color: #FF0000;
+}
+
+.error ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+.error ul li
+{
+    color: #FF0000;
+    background: #FFFBDE;
+    border: 1px solid #FF0000;
+    list-style-type: none;
+    line-height: 18px;
+    margin: 5px 0;
+    padding: 8px !important;
+}
+
+.error p
+{
+	margin: 0;
+}
+
+/** @Captcha */
+
+div.captcha
+{
+	clear: left;
+	padding-top: 5px;
+}
+
+img.captcha-image 
+{
+    margin: 0  !important;
+    border: 1px solid #222;
+    background-color: #fff;
+    float: left;
+}
+
+button.captcha-refresh-btn {
+	background: transparent url('../img/form/refresh_24.png') no-repeat left top;
+	height: 26px;
+	width: 26px;
+	border: 0 none;
+	margin-left: 5px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+button.captcha-refresh-btn span {
+	visibility: hidden;
+	position: absolute !important;
+	top: -10000px;
+	left: -10000px;
+}
+
+.captcha .image-captcha-help {
+	font-style:italic;
+	clear: both;
+	font-size: 0.9em;
+}
+
+.captcha-end
+{
+	clear: both;
+}
+
+/** @end captcha */
+
+.forgot-password 
+{
+	text-align: right;
+}
+
+/* Forms in content */
+.ametys-cms-content form{
+	border: 0 none;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+.ametys-cms-content form table, 
+.ametys-cms-content form table > tbody > tr > th, 
+.ametys-cms-content form table > tbody > tr > td{ text-align: left !important; }
+
+.ametys-cms-content form table.invisible > tbody > tr.last > td{
+	text-align: right !important;
+}
+
+.ametys-cms-content form:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.ametys-cms-content form .input,
+.ametys-cms-content form .select
+.ametys-cms-content form input[type=text],
+.ametys-cms-content form input[type=file],
+.ametys-cms-content form select,
+.ametys-cms-content form textarea{ width: 100% !important; }
+
+.ametys-cms-content form input[type=submit],
+.ametys-cms-content form input[type="reset"]{
+    height: 49px;
+    line-height: 49px;
+    background-color: #3A3B3E;
+    color: #fff;
+/*     font-family: Montserrat; */
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 0 none;
+    width: 100%;
+/*     margin-bottom: 4%; */
+}
+
+.ametys-cms-content form input[type=submit]{
+	background-color: #D71B5B;
+	font-weight: 600;
+}
+
+.ametys-cms-content form input,
+.ametys-cms-content form select,
+.ametys-cms-content form textarea{ font-size: inherit; border: 1px solid #d3d1d1 }
+
+.ametys-cms-content form .ui-selectmenu-button .ui-selectmenu-text::after{ font-size: 32px; }
+
+/* .ametys-cms-content .label{ position: absolute; left: -2000px; top: -2000px; } */
+.ametys-cms-content .field{ display: inline-block; 	vertical-align: middle; margin: 0 1% 10px 0; width: 100%; }
+.ametys-cms-content .field .input, .ametys-cms-content .field .select{ width: 100%; }
+
+.ametys-cms-content form fieldset{ padding: 10px 40px; }

@@ -1,0 +1,787 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* begin Page */
+
+.hidden-L
+{
+	position: absolute;
+	left: -20000px;
+	top: -20000px;
+}
+
+/* search highlight */
+span.highlight {
+	color: #000000;
+	background-color: #fcfc00;
+}
+
+
+.index .filtered-contents .ametys-cms-content.article.view-abstract.wrapper p.content-read-more {
+    margin-top: 5px;
+}
+
+.cleared,
+.clear-L
+{
+  display:block;
+  clear: both;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  height:0;
+  overflow:hidden;
+}
+
+div.page-wai-links
+{
+	position: absolute;
+
+	width: 100%;
+
+	height: 0;
+	text-align: center;
+	z-index: 50000;
+}
+.mobileswitch {
+	line-height: 38px;
+    display: inline-block;
+    float: left;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0 0 0 8px;
+    margin-right: 1em;
+}
+
+div.page-wai-links a,
+div.page-wai-links a:focus,
+div.page-wai-links a:active,
+div.page-wai-links a:visited,
+div.page-wai-links a:hover
+{
+	position: relative;
+	left: -20000px;
+	top: -20000px;
+	text-decoration: underline;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+}
+div.page-wai-links a:active,
+div.page-wai-links a:focus,
+div.page-wai-links a:hover
+{
+	left: 0;
+	top: 0;
+}
+
+.ametys-cms-content a, .ametys-cms-service a
+{
+  text-decoration: none;
+  color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+.ametys-cms-content a:link, .ametys-cms-service a:link
+{
+  text-decoration: none;
+  color: #0084BB /* AMETYS ("default.default.bgcolor.main") */ ;
+}
+
+.ametys-cms-content a:visited, .ametys-cms-content a.visited,
+.ametys-cms-service a:visited, .ametys-cms-service a.visited
+{
+  color: #0084BB /* AMETYS ("default.default.bgcolor.main") */ ;
+}
+
+.ametys-cms-content a:hover, .ametys-cms-content a.hover,
+.ametys-cms-service a:hover, .ametys-cms-service a.hover
+{
+  	text-decoration: underline;
+  	color: #0084BB /* AMETYS ("default.default.bgcolor.main") */ ;
+}
+
+.pagination ul.nav li span.button-wrapper input,
+.ctypes-filter ul.ctypes li input,
+.results-sort ul li input
+{
+  text-decoration: none;
+  color: #0084bb /* AMETYS ("default.default.bgcolor.main") */ !important ;
+}
+.pagination ul.nav li input.button:hover,
+.ctypes-filter ul.ctypes li input.button:hover,
+.results-sort ul li input:hover
+{
+  text-decoration: underline;
+  color: #0084bb /* AMETYS ("default.default.bgcolor.main") */ !important ;
+}
+
+/* -----
+   TITLE
+   ----- */
+.ametys-cms-content h2{
+    border-bottom: 1px solid #e4e4e4;
+    margin: 0;
+    font-size: 3.2em;
+    margin: 30px 0 23px;
+}
+.ametys-cms-content.view-abstract h2{ border-width: 0; }
+
+.ametys-cms-content h2 .content-title{
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    display: block;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 11px;
+}
+
+.ametys-cms-content h2 .content-subtitle{
+    color: #181818;
+    font-weight: 400;
+    line-height: 1.2em;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size:.75em;
+}
+
+.ametys-cms-content h3{
+    color: #181818;
+    font-size: 2.4em;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 24px 0 0;
+}
+
+.ametys-cms-content h4{
+    color:#60616d;
+    font-size: 2.4em;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 13px 0 3px;
+}
+
+.ametys-cms-content h1 a:link,
+.ametys-cms-content h2 a:link,
+.ametys-cms-content h3 a:link,
+.ametys-cms-content h4 a:link{
+	display: inline-block;
+}
+
+
+#ametys-cms-zone-blue .ametys-cms-content h4{
+    color: #ffffff;
+}
+
+.ametys-cms-content h5{
+    color:#181818;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 8px 0 3px;
+}
+
+.ametys-cms-content h6 {
+    color: #60616d;
+    font-size: 1.7em;
+    font-weight: 800;
+    line-height: 1em;
+    margin: 6px 0 4px;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content h6{
+    color: #ffffff;
+}
+
+/* ----
+   LINK
+   ---- */
+.ametys-cms-content a:link,
+.ametys-cms-content a:visited{
+    color:#0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+
+.ametys-cms-content a:hover{
+    color:#0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    text-decoration: underline;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content a:link,
+#ametys-cms-zone-blue .ametys-cms-content a:visited,
+#ametys-cms-zone-blue .ametys-cms-content a:hover{
+	color: #ffffff;
+}
+
+.ametys-cms-content a.invisible,
+.ametys-cms-content a.invisible:visited
+{
+	color: #60616d ;
+	text-decoration: none;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content a.invisible,
+#ametys-cms-zone-blue .ametys-cms-content a.invisible:visited{
+    color: #ffffff;
+}
+
+.ametys-cms-content a.invisible:hover,
+.ametys-cms-content a.invisible:active,
+.ametys-cms-content a.invisible:focus
+{
+  text-decoration: underline;
+  color: #0084BB /* AMETYS ("default.default.bgcolor.main") */ ;
+}
+
+.ametys-cms-content a.download,
+.ametys-cms-content a.download:hover,
+.ametys-cms-content a.download:link,
+.ametys-cms-content a.download:visited,
+.ametys-cms-content a.download:active
+{
+}
+
+.ametys-cms-content a.download:before{
+	content: "\e90a";
+	font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin-right: 5px;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ametys-cms-content a.pdf-2-flash,
+.ametys-cms-content a.pdf-2-flash:visited,
+.ametys-cms-content a.pdf-2-flash:hover,
+.ametys-cms-content a.pdf-2-flash:link,
+.ametys-cms-content a.pdf-2-flash:active
+{
+	padding-left: 15px;
+}
+
+.ametys-cms-content a.know-more,
+.ametys-cms-content a.know-more:visited,
+.ametys-cms-content a.know-more:hover,
+.ametys-cms-content a.know-more:link,
+.ametys-cms-content a.know-more:active
+{
+}
+.ametys-cms-content a.know-more:hover,
+.ametys-cms-content a.know-more:active
+{
+}
+
+.ametys-cms-content a.external:after,
+.module-box a.external:after,
+.ametys-cms-content a[target=_blank]:after{
+    content : "\f178";
+    font-family: FontAwesome;
+    margin-left: 4px;
+}
+
+.ametys-cms-content a.mailto,
+.ametys-cms-content a.mailto:visited,
+.ametys-cms-content a.mailto:hover,
+.ametys-cms-content a.mailto:link,
+.ametys-cms-content a.mailto:active,
+.ametys-cms-content a.comment-sendmail,
+.ametys-cms-content a.comment-sendmail:visited,
+.ametys-cms-content a.comment-sendmail:hover,
+.ametys-cms-content a.comment-sendmail:link,
+.ametys-cms-content a.comment-sendmail:active
+{
+}
+
+.ametys-cms-content a.mailto:before,
+.ametys-cms-content a.comment-sendmail:before{
+	content: "\f003";
+	  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 5px;
+	
+}
+
+.ametys-cms-content a.broken,
+.ametys-cms-content a.broken:hover,
+.ametys-cms-content a.broken:link,
+.ametys-cms-content a.broken:visited,
+.ametys-cms-content a.broken:active {
+	color: #ffffff !important;
+	background-color: #ff0000 !important;
+}
+
+.ametys-cms-content dfn a:link,
+.ametys-cms-content dfn a:visited,
+.ametys-cms-content dfn a:hover,
+.ametys-cms-content dfn a:active,
+.ametys-cms-content dfn a:focus
+{
+	text-decoration: none;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #0F1419 ; 
+	color: #0F1419  ;
+}
+
+/* end Page */
+
+/* -----
+   IMAGE
+   ----- */
+.ametys-cms-content img
+{
+  	border-style: solid;
+  	border-width: 1px; 
+  	border-color: #D4D4D4;
+  	margin: 7px;
+	padding: 0;	
+}
+
+.ametys-cms-content div.captcha img{ margin: 0 !important; }
+
+.ametys-cms-content span.invisible img
+{
+	border-style: none;
+	padding: 0;
+}
+
+.ametys-cms-content span.frame img 
+{
+	background-color: #ffffff;
+	padding: 3px;
+}
+
+.ametys-cms-content span.largeframe img 
+{
+	background-color: #ffffff;
+	padding: 8px;	
+}
+
+.ametys-cms-content .floatleft 
+{
+	float: left;
+	margin-left: 0;
+}
+
+.ametys-cms-content .floatright 
+{
+	float: right;
+	margin-right: 0;
+}
+
+.ametys-cms-content .image-wrapper {
+    display: inline-block;
+/*     margin-top: 17px; */
+    max-width: 100%;
+}
+
+.ametys-cms-content .image-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+.metadata-icons img
+{
+  border: none;
+  vertical-align: middle;
+  margin: 2px;
+}
+
+pre
+{
+  overflow: auto;
+  padding: 0.1em;
+}
+
+/* -----
+   TABLE
+   ----- */
+.ametys-cms-content table
+{
+  border-collapse: collapse;
+  margin: 1px;
+  margin-bottom: 14px;
+    margin-top: 12px;
+    width: 100%;
+}
+.ametys-cms-content table caption
+{
+	margin-bottom: 7px;
+}
+.ametys-cms-content table tr td,
+.ametys-cms-content table tr th
+{
+  padding: 2px;
+  vertical-align: top;
+    text-align: center;
+    font-size: 1.7em;
+    height: 63px;
+    color: #60616d;
+}
+
+.ametys-cms-content table tr td *{
+	font-size: inherit;
+}
+
+.ametys-cms-content table tr th
+{
+  text-align: center;
+   font-weight: 600;
+  vertical-align: middle;
+}
+.ametys-cms-content table tr th p,
+.ametys-cms-content table tr td p,
+.ametys-cms-content table tr td ul,
+.ametys-cms-content table tr td ol
+{
+	margin: 0;
+	font-size: inherit;
+}
+.ametys-cms-content table.floatright 
+{
+	margin-left: 7px;
+}
+.ametys-cms-content table.floatleft 
+{
+	margin-right: 7px;
+}
+/* SIMPLE */
+.ametys-cms-content table,
+.ametys-cms-content table > tbody > tr > th,
+.ametys-cms-content table > tbody > tr > td
+{
+	border-width: 0;
+	border: 1px solid #e4e4e4;
+    color: #60616d;
+    height: 63px;
+    text-align: center;
+}
+/* INVISIBLE */
+.ametys-cms-content table.invisible,
+.ametys-cms-content table.invisible > tbody > tr > th,
+.ametys-cms-content table.invisible > tbody > tr > td 
+{
+	border: 0 none transparent;	
+}
+/* DATALIGHT */
+.ametys-cms-content table.datalight > tbody > tr > th{
+    background-color: #f5f6fa;
+}
+.ametys-cms-content table.datalight > tbody > tr > td{
+	border: 1px solid #e4e4e4;
+    color: #60616d;
+    height: 63px;
+    text-align: center;
+}
+/* DATASTRONG */
+.ametys-cms-content table.datastrong {
+	border: 3px solid #e4e4e4;
+}
+
+li strong {
+    padding-left: 0 !important;
+}
+
+
+/* ---------
+   PARAGRAPH 
+   --------- */
+.ametys-cms-content p
+{
+    color: #60616d;
+    font-size: 1.7em;
+/*     font-weight: 400; */
+    line-height: 1.2em;
+    margin: 0 0 10px ;
+    font-size: 1.7em;
+    line-height: 1.3em;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content p{ color: #ffffff; }
+
+.ametys-cms-content p.introduction
+{
+	font-size: 0.9em ; 
+	font-weight: bold ;
+	letter-spacing: 0.085em;
+}
+
+.ametys-cms-content p.important
+{
+  font-weight: bold;
+}
+
+.ametys-cms-content p.secondary
+{ 
+	font-style : italic ;
+	font-size : 0.9em ;
+	padding-left: 3.25em;
+  color: #0F1419 ;
+}
+
+.ametys-cms-content p.sub-title
+{
+	color: #60616d;
+    font-size: 1.7em;
+    font-weight: 800;
+    line-height: 1em;
+    margin: 6px 0 4px;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content p.sub-title{
+	color:#ffffff;
+}
+
+/* ----
+   LIST 
+   ---- */
+.ametys-cms-content ul,
+.ametys-cms-content ol{
+    list-style: outside none none;
+    margin: 0;
+    padding:0;
+}
+.ametys-cms-content>ul,
+.ametys-cms-content>ol,
+.ametys-cms-content>.ui-accordion-content>ul,
+.ametys-cms-content>.ui-accordion-content>ol{ 
+    font-size: 1.7em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left:0;
+}
+
+.ametys-cms-content ul *,
+.ametys-cms-content ol *{
+	font-size: inherit ;
+}
+
+.ametys-cms-content ul li p, .ametys-cms-content ul li, .ametys-cms-content ol li p, .ametys-cms-content ol li{
+	font-size: 17px !important;
+}
+
+.ametys-cms-content ol,
+.ametys-cms-content .ui-tabs-panel ol{
+	margin-left: 15px;
+}
+
+.ametys-cms-content ul > li{
+    list-style: outside none none;
+    margin: 0;
+    position: relative;
+    line-height: 1.6em;
+    color: #60616d;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content ul > li{ color: #ffffff; }
+
+.ametys-cms-content ul,
+.ametys-cms-content ul.disc,
+.ametys-cms-content ul.disc > li
+{
+	list-style-type : disc;
+	list-style-image : none;
+	padding-left: 0;
+	margin-left: 10px;
+}
+
+.ametys-cms-content ul.square,
+.ametys-cms-content ul.square > li
+/* .ametys-cms-content ul.square > li > ul > li, */
+/* .ametys-cms-content ul.square > li > ul > li > ul > li */
+{
+	list-style-type : square;
+	list-style-image : none;
+	padding-left: 0;
+	margin-left: 10px;
+}
+
+.ametys-cms-content ul.custom{ padding-left: 0; margin-left: 0; list-style-type: none; }
+
+.ametys-cms-content ul.custom > li,
+.ametys-cms-content ul.custom > li *:not(span):not(a):not(sup):not(sub){
+	margin-left: 0;
+	padding-left: 15px;
+	list-style-type: none;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content ul.custom > li *:not(span):not(a){ padding-left: 0; }
+
+.ametys-cms-content ul.custom > li ul{ padding-left: 0; }
+
+.ametys-cms-content ul.custom li:before{
+    content: "\f105";
+    color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    left: 0;
+    position: absolute;
+}
+
+.ametys-cms-content ul.custom > li > ul > li:before{
+    color: #60616d;
+}
+
+#ametys-cms-zone-blue .ametys-cms-content ul.custom li:before,
+#ametys-cms-zone-blue .ametys-cms-content ul.custom > li > ul > li:before,
+#ametys-cms-zone-blue .ametys-cms-content ul.custom > li > ul > li > ul > li:before{
+	color: #ffffff;
+}
+
+.ametys-cms-content ul.custom > li > ul > li > ul > li:before{
+    color: #aeb0bc;
+}
+
+.ametys-cms-content ol > li{
+    list-style: none inside;
+    line-height: 1.4em;
+	color: #60616d; 
+}
+
+#ametys-cms-zone-blue .ametys-cms-content ol > li{
+	color: #ffffff; 
+}
+
+.ametys-cms-content ol,
+.ametys-cms-content ol.arabic,
+.ametys-cms-content ol.lowerroman,
+.ametys-cms-content ol.upperroman,
+.ametys-cms-content ol.loweralpha,
+.ametys-cms-content ol.upperalpha
+{
+	list-style-type: none;
+	list-style-image : none;
+	counter-reset: section;
+}
+
+.ametys-cms-content ol li:before,
+.ametys-cms-content ol.arabic li:before,
+.ametys-cms-content ol.lowerroman li:before,
+.ametys-cms-content ol.upperroman li:before,
+.ametys-cms-content ol.loweralpha li:before,
+.ametys-cms-content ol.upperalpha li:before{
+	counter-increment: section;
+	width:40px;
+	display:inline-block;
+	margin:0;
+	font-weight: bold;
+/* 	text-align: center; */
+	color:#0084BB /* AMETYS ("default.default.bgcolor.main") */;
+}
+.ametys-cms-content ol li:before,
+.ametys-cms-content ol.arabic li:before{
+	content: counter(section, decimal) ". ";
+}
+
+.ametys-cms-content ol.lowerroman li:before
+{
+	content: counter(section, lower-roman) ". ";
+	
+}
+
+.ametys-cms-content ol.upperroman li:before
+{
+	content: counter(section, upper-roman) ". ";
+}
+
+.ametys-cms-content ol.loweralpha li:before
+{
+	content: counter(section, lower-alpha) ". ";
+}
+
+.ametys-cms-content ol.upperalpha li:before
+{
+	content: counter(section, upper-alpha) ". ";
+}
+
+.ametys-cms-content ol,
+.ametys-cms-content ol.arabic
+{
+	list-style-type: decimal;
+	list-style-image : none;	
+	margin-left: 0;
+}
+
+.ametys-cms-content ol.lowerroman
+{
+	list-style-type: lower-roman;
+	list-style-image : none;	
+}
+
+.ametys-cms-content ol.upperroman
+{
+	list-style-type: upper-roman;
+	list-style-image : none;	
+}
+
+.ametys-cms-content ol.loweralpha
+{
+	list-style-type: lower-alpha;
+	list-style-image : none;	
+}
+
+.ametys-cms-content ol.upperalpha
+{
+	list-style-type: upper-alpha;
+	list-style-image : none;	
+}
+
+
+@media screen and (min-width: 768px) {
+	.mobileswitch.visible-desktop {
+		margin-right: 1em;
+		float: left;
+		display: inline-block !important;
+	}
+	.ametys-cms-content h3{
+	    margin: 24px 0 0;
+	}
+	
+	.ametys-cms-content p{
+	    line-height: 1.3em;
+	}
+	
+	
+	.ametys-cms-content .image-wrapper.floatleft {
+	    float: left;
+	    margin-right: 30px;
+	}
+}
+
+@media screen and (min-width: 1094px ){
+	.mobileswitch {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.mobileswitch {
+		display: inline-block;
+	}
+}
+

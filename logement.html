@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#" class="js filereader wf-ubuntu-n7-active wf-ubuntu-n3-active wf-ubuntu-n4-active wf-ubuntu-i4-active wf-ubuntu-i7-active wf-ubuntu-i3-active wf-ubuntu-n5-active wf-ubuntu-i5-active wf-active" lang="fr">
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesirsEtudiants</title>
+    <link rel="stylesheet" type="text/css" href="logement/screen.css" media="all">
+    <link rel="stylesheet" type="text/css" href="logement/print.css" media="print">
+    <meta name="apple-mobile-web-app-title" content="Studylease">
+    <meta name="application-name" content="Studylease">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <script src="logement/sdk_002.js" async="" crossorigin="anonymous"></script>
+    <script id="facebook-jssdk" src="logement/sdk.js"></script>
+    <script async="" src="logement/analytics.js"></script>
+    <script src="logement/modernizr.js"></script>
+    <script type="text/javascript" src="logement/require.js" data-main="/js/bootstrap.js?20180416"></script>
+    <meta name="description" content="Avec Studylease, trouvez votre logement étudiant ou votre résidence étudiante, partout en France. Recherche et réservation en ligne de logements étudiants.">
+    <link rel="alternate" hreflang="fr" href="https://www.studylease.com/">
+    <link rel="alternate" hreflang="es" href="http://www.studylease.es/">
+    <link rel="alternate" hreflang="en" href="http://www.studylease.co.uk/">
+    <link rel="alternate" type="application/rss+xml" href="https://www.studylease.com/actualites/feed/rss">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.studylease.com/">
+    <meta property="og:image" content="https://www.studylease.com/images/logo_twitter_studylease.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@studylease">
+    <meta name="twitter:title" content="Trouver un logement étudiant">
+    <meta name="twitter:description" content="Avec Studylease, trouvez votre logement étudiant ou votre résidence étudiante, partout en France. Recherche et réservation en ligne de logements étudiants.">
+    <meta name="twitter:image" content="https://www.studylease.com/images/logo_twitter_studylease.png">
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/js/bootstrap.js?20180416" src="logement/bootstrap.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bao" src="logement/bao.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="logement/jquery-2.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="config" src="logement/config.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="logement/main.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/residences/search-engine" src="logement/search-engine.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="class" src="logement/class.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchHeight" src="logemnt/jquery_002.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="respond" src="logements/respond.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="logement/jquery-ui-1.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="enquire" src="logement/enquire.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-datepicker-fr" src="logement/jquery-ui-datepicker-fr.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-timepicker" src="logement/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="alteo-jquery-ui-catcomplete" src="logement/jquery-ui-catcomplete.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-timepicker-fr" src="logement/jquery-ui-timepicker-fr.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="alteo-datepicker" src="logement/datepicker.js"></script>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- Site Metas -->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+    <!-- [if lt IE 9] -->
+</head>
+
+<body class="clinic_version">
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
+    </div>
+    <!-- END LOADER -->
+    <header>
+        <div class="header-top wow fadeIn">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <div class="right-header">
+                    <div class="header-info">
+                        <div class="info-inner">
+                            <span class="icontop"><img src="images/phone-icon.png" alt="#"></span>
+                            <span class="iconcont"><a href="tel:00221781268188">78 126 81 88</a></span>
+                        </div>
+                        <div class="info-inner">
+                            <span class="icontop"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="iconcont"><a data-scroll href="mailto:info@yoursite.com">Contacter nous</a></span>
+                        </div>
+                        <div class="info-inner">
+                            <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <span class="iconcont"><a data-scroll href="#">Tout les jours</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom wow fadeIn">
+            <div class="container">
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a data-scroll href="livres.html">Cours</a></li>
+                            <li><a data-scroll href="examensconcours.html">Examens&<br>Concours</a></li>
+                            <li><a data-scroll href="actualites.html">Actualites<br>Universitaires</a></li>
+                            <li><a data-scroll href="coursparticuliers.html">Cours<br>Particuliers</a></li>
+                            <li><a data-scroll href="logement.html">Etudiant<br>Recherche<br> logement</a></li>
+                            <li><a data-scroll href="shop.html">Shop</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="serch-bar">
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control input-lg" placeholder="Chercher" />
+                            <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="home" class="parallax first-section wow fadeIn" data-stellar-background-ratio="0.4" style="background-image:url('images/slider-bg.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="text-contant">
+                        <h2>
+                            <span class="center"><span class="icon"><img src="images/icon-logo.png" alt="#" /></span></span>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "DesirsEtudiants", "Vos Desirs", "Sont des Ordres!"]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+    <div id="about" class="section wow fadeIn">
+        <div class="container">
+            <div class="heading">
+                <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+                <h2>DesirsEtudiants se rapproche des etudiants</h2>
+            </div>
+
+            <!--[if lt IE 9]>
+                <div id="ballot">
+                    <div class="inner">
+                        <div class="warning">
+                            Attention !				</div>
+                        <p>
+                            <strong>Vous utilisez un navigateur obsolète</strong>
+                            Pour une meilleure expérience sur ce site, utilisez un navigateur web moderne.				</p>
+                        <ul>
+                            <li class="firefox"><a href="http://www.firefox.com" target="_blank">Firefox</a></li>
+                            <li class="chrome"><a href="http://www.google.com/chrome" target="_blank">Chrome</a></li>
+                            <li class="safari"><a href="http://www.apple.com/safari/download/" target="_blank">Safari</a></li>
+                            <li class="opera"><a href="http://www.opera.com/" target="_blank">Opéra</a></li>
+                            <li class="ie"><a href="http://windows.microsoft.com/fr-FR/internet-explorer/products/ie/home" target="_blank">Internet Explorer 9</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <![endif]-->
+
+
+            <div class="layout mob-hide">
+                <div class="wrap-block-search wrap-block-search-home">
+
+                    <h2 class="title weight"> Plus logements dédiés aux étudiants </h2>
+                </div>
+            </div>
+            <!--/header-->
+            <div class="container">
+                <div class="container-steps">
+                    <div class="layout">
+                        <meta property="og:site_name" content="Studylease">
+                        <meta property="fb:app_id" content="645474628944009">
+                        <meta property="og:title" content="Trouver un logement étudiant">
+                        <meta property="og:description" content="Avec DesirsEtudaints, trouvez votre logement étudiant ou votre résidence étudiante, partout en France. Recherche et réservation en ligne de logements étudiants.">
+                        <!-- Block Steps ------------------------------------------------------------ -->
+                        <div class="block-steps">
+                            <h2 class="main-title">
+                                Trouver un logement étudiant sur <span class="weight blue">DesirsEtudiants,</span><br class="desk-hide mob-hide phab-show">
+                                <span class="weight">c’est simple !</span>
+                            </h2>
+                            <div class="grids">
+                                <div class="grid-1-3 phab-full">
+                                    <div class="item item-1">
+                                        <div class="grids grids-large grids-middle">
+                                            <div class="grid-full phab-1-2 phab-right">
+                                                <div class="step-icon">
+                                                    <img src="logement/ico_step3.png" alt="Trouver et réserver un logement étudiant avec Studylease">
+                                                    <div class="transition-icon ">
+                                                        <i class="i-triple-arrows"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-full phab-1-2 phab-left">
+                                                <p>
+                                                    <span class="weight">Trouvez &amp; Réservez</span> votre logement </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-1-3 phab-full">
+                                    <div class="item item-2">
+                                        <div class="grids grids-large grids-middle">
+                                            <div class="grid-full phab-1-2 phab-right">
+                                                <div class="step-icon">
+                                                    <img src="logement/ico_step2.png" alt="Réservez votre logement étudiant en résidence étudiante">
+                                                </div>
+                                            </div>
+                                            <div class="grid-full phab-1-2 phab-left">
+                                                <p>
+                                                    <span class="weight">Recevez &amp; Renvoyez</span> votre contrat de location </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-1-3 phab-full">
+                                    <div class="item item-3">
+                                        <div class="grids grids-large grids-middle">
+                                            <div class="grid-full phab-1-2 phab-right">
+                                                <div class="step-icon">
+                                                    <div class="transition-icon">
+                                                        <i class="i-equal"></i>
+                                                    </div>
+                                                    <img src="logement/ico_step1.png" alt="Ça y est vous avez votre logement étudiant pour la rentrée !">
+                                                </div>
+                                            </div>
+                                            <div class="grid-full phab-1-2 phab-left">
+                                                <p>
+                                                    <span class="weight">Bravo !</span> Votre logement est réservé </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/layout-->
+                </div>
+                <div class="layout">
+                    <div class="block-student">
+
+                        <div class="grids grids-large grids-revert">
+
+                            <div class="grid-2-5 phab-full">
+                                <div class="">
+                                    <div class="wrap-header">
+                                        <p>
+                                            <span class="title"><i class="i-sketch-arrow"></i> Étudiants</span><br>
+                                            <span class="question">Pourquoi passer par DesirsEtudiants ?</span>
+                                        </p>
+                                    </div>
+                                    <ul>
+                                        <li class="students-item">
+                                            <i class="i-check"></i>
+                                            <span class="weight">
+                                     Nous disposons d'une excellente service pour vous</span>
+                                        </li>
+                                        <li class="students-item">
+                                            <i class="i-check"></i>
+                                            <span class="weight">
+                                    Un large choix	</span> de logements au meilleur prix </li>
+                                        <li class="students-item">
+                                            <i class="i-check"></i>
+                                            <span class="weight">
+                                    Simple et rapide,</span> vous pouvez tout avoir en quelques minutes </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="grid-3-5 phab-full">
+                                <div class="phab-center">
+                                    <img src="logement/illus_students.jpg" alt="Un choix de logement étudiant (appartement, studio, ...) en résidence étudiante sur toute la France">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <!-- Block Advantages ------------------------------------------------------- -->
+                    <div class="block-advantages">
+                        <div class="grids">
+                            <div class="grid-1-4 phab-1-2 palm-full">
+                                <div class="wrap-item-advantage">
+                                    <div class="item-advantage item-free first">
+                                        <i class="i-pig"></i>
+                                        <p>
+                                            <span class="weight">DesirsEtudiants</span> tout est rapide! <span class="item-separator palm-hide"></span>
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-1-4 phab-1-2 palm-full">
+                                <div class="wrap-item-advantage">
+                                    <div class="item-advantage item-serious">
+                                        <i class="i-ribbon"></i>
+                                        <p>
+                                            <span class="weight">Sérieux</span> Engagement qualité <span class="item-separator phab-hide"></span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-1-4 phab-1-2 palm-full">
+                                <div class="wrap-item-advantage">
+                                    <div class="item-advantage item-time">
+                                        <i class="i-clock"></i>
+                                        <p>
+                                            <span class="weight">Simple et rapide</span> Notre equipe vous accompagne du debut a la fin. <span class="item-separator palm-hide"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-1-4 phab-1-2 palm-full">
+                                <div class="wrap-item-advantage no-separator">
+                                    <div class="item-advantage item-price">
+                                        <i class="i-house"></i>
+                                        <p>
+                                            <span class="weight">Prix compétitifs</span> Des logements proposés </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block-towns">
+                        <p class="main-title block-towns__ttl">
+                            <span class="weight blue">Etudiants,</span> trouvez votre logement ! </p>
+                        <div class="block-towns__list">
+                            <ul class="grids grids-large">
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-paris-75000" class="block-towns__item block-towns__item--paris">
+                                        <span>Fann Hock</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-lille-59800" class="block-towns__item block-towns__item--lille">
+                                        <span>Gueule Tapee</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-marseille-13000" class="block-towns__item block-towns__item--marseille">
+                                        <span>Médina</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-bordeaux-33000" class="block-towns__item block-towns__item--bordeaux">
+                                        <span>Colobane</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-montpellier-34000" class="block-towns__item block-towns__item--montpellier">
+                                        <span>Fass</span></a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-lyon-69000" class="block-towns__item block-towns__item--lyon">
+                                        <span>Foire</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-nantes-44000" class="block-towns__item block-towns__item--nantes">
+                                        <span>Grand Dakar</span>
+                                    </a>
+                                </li>
+                                <li class="grid-1-5 mob-1-3 palm-1-2">
+                                    <a href="https://www.studylease.com/logement-etudiant-toulouse-31000" class="block-towns__item block-towns__item--toulouse">
+                                        <span>Ouakam</span>
+                                    </a>
+                                </li>
+                                <li class="grid-2-5 mob-1-3 palm-full">
+                                    <div class="block-towns__item block-towns__cta">
+                                        <p class="block-towns__cta-ttl">Vous recherchez <br class="no-display mob-show palm-hide">un logement étudiant ?</p>
+                                        <p class="block-towns__cta-subttl">N’hésitez plus !</p>
+                                        <p>
+                                            <a href="#top" class="btn-classic-custom block-towns__cta-link">Commencez votre recherche</a>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr class="separator">
+                    </div>
+
+                    <h2 class="main-title ttl-studybail-students">
+                        <span class="weight blue">DesirsEtudiants</span> aide les étudiants à <span class="weight">trouver leur logement !</span>
+                    </h2>
+
+                    <div class="block-plans">
+                        <div class="grids grids-large grids-revert">
+
+                            <div class="grid-5-8 phab-full">
+                                <div class="box-plans-img">
+                                    <div class="row-1">
+                                        <div class="grids grids-large">
+                                            <div class="grid-1-3 phab-hide">
+                                                <div class="plans-img-item item-1">
+                                                    <img src="logement/illus_plans_1.jpg" alt="Résidences universitaire à Paris, Montpellier, Bordeaux, Lille, Marseille, ...">
+                                                </div>
+                                            </div>
+                                            <div class="grid-2-3 phab-hide">
+                                                <div class="plans-img-item item-2">
+                                                    <img src="logement/illus_plans_2.jpg" alt="Logements étudiants à Paris, Lille, Lyon, Valenciennes, Courbevoie, ...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row-2">
+                                        <div class="grids">
+                                            <div class="grid-2-3 phab-full">
+                                                <div class="plans-img-item item-3">
+                                                    <img src="logement/illus_plans_3.jpg" alt="Résidences étudiantes à Paris, Nice, Pontoise, Montpellier, ...">
+                                                </div>
+                                            </div>
+                                            <div class="grid-1-3 phab-hide">
+                                                <div class="plans-img-item item-4">
+                                                    <img src="logement/illus_plans_4.jpg" alt="Logements étudiants en résidences étudiantes ) Paris, Lille,Lyon, Marseille, Bordeaux, ...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid-3-8 phab-full">
+                                <div class="wrap-box-plans">
+                                    <div class="box-plans">
+                                        <p class="title">Les bons plans</p>
+                                        <p class="txt-plans">DesirsEtudiants aide les étudiants à se loger en proposant un vaste choix de logement étudiant à Paris et partout en France. Les résidences étudiantes privées multiservices sont une solution efficace pour répondre
+                                            aux besoins d'hébergement étudiant. La plateforme permet de réserver gratuitement et sans engagement des studios meublés, avec ou sans colocation, F1, F2, etc. Studylease fournit aussi des informations utiles
+                                            autour de l’aide au logement étudiant.
+                                        </p>
+                                        <ul>
+                                            <li class="plans-item"><a class="link-plan" href="https://www.studylease.com/page-foire-aux-questions">Comment et à qui s’adresser ?</a></li>
+                                            <li class="plans-item"><a class="link-plan" href="https://www.studylease.com/categorie/aides-au-logement/aides-au-logement">Les aides au logement ?</a></li>
+                                            <li class="plans-item"><a class="link-plan" href="https://www.studylease.com/categorie/se-loger/choisir-sa-banque">Bien choisir sa banque</a></li>
+                                            <li class="plans-item"><a class="link-plan" href="https://www.studylease.com/categorie/loi-et-contrats/la-responsabilite-civile">Bien choisir son assurance</a></li>
+                                            <li class="plans-item"><a class="link-plan" href="https://www.studylease.com/categorie/aides-au-logement/dse">Un DSE (Dossier social étudiant)</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class="separator">
+
+                    <div class="block-pros">
+                        <div class="wrap-header">
+                            <p>
+                                <span class="title">Professionnels, bailleurs</span><br>
+                                <span class="subtitle">Vous souhaitez proposer des logements ?</span>
+                            </p>
+                        </div>
+                        <div class="grids grids-large grids-bottom grids-revert">
+
+                            <div class="grid-1-2 palm-full">
+                                <div class="box-pros">
+                                    <p class="label phab-hide"><span class="weight">DesirsEtudiants vous accompagne</span> de la mise en ligne à la location</p>
+                                    <ul>
+                                        <li class="pros-item"><i class="i-check"></i> Une visibilité accrue</li>
+                                        <li class="pros-item"><i class="i-check"></i> Des contacts sérieux</li>
+                                        <li class="pros-item"><i class="i-check"></i> Un outil de gestion adapté</li>
+                                    </ul>
+
+                                    <p class="palm-center">
+                                        <a href="https://www.desirsetudiants.com/contact" class="btn-classic-custom btn-contact">Contactez-nous</a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="grid-1-2 palm-full">
+                                <div class="illus">
+                                    <img src="logement/illus_pros.jpg" alt="Trouver un logement étudiant avec Studylease, ou proposer des résidences étudiantes">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--/layout-->
+            </div>
+            <!--/container-->
+            <!-- end section -->
+            <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
+                <div class="container">
+                    <div class="heading">
+                        <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+                        <h2>Contacter Nous</h2>
+                    </div>
+                </div>
+                <div class="contact-section">
+                    <div class="form-contant">
+                        <form id="ajax-contact" action="assets/mailer.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group in_name">
+                                        <input type="text" class="form-control" placeholder="Nom" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="email" class="form-control" placeholder="E-mail" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="tel" class="form-control" id="phone" placeholder="Telephone" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group in_email">
+                                        <input type="text" class="form-control" id="subject" placeholder="Sujet" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group in_message">
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
+                                    </div>
+                                    <div class="actions">
+                                        <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn small" title="Submit Your Message!">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="googleMap" style="width:100%;height:450px;"></div>
+                </div>
+            </div>
+            <footer id="footer" class="footer-area wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="logo padding">
+                                <a href=""><img src="images/logo.png" alt=""></a>
+                                <p>Le site qui resoud le probléme des etudiants.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-info padding">
+                                <h3>CONTACT US</h3>
+                                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Rue 10 FASS DAKAR</p>
+                                <p><i class="fa fa-paper-plane" aria-hidden="true"></i> sorogueye93@gmail.com</p>
+                                <p><i class="fa fa-phone" aria-hidden="true"></i>&* 126 81 88</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="subcriber-info">
+                                <h3>S'INSCRIRE</h3>
+                                <p>Entrer votre addresse mail pour recevoir plus d'info.</p>
+                                <div class="subcriber-box">
+                                    <form id="mc-form" class="mc-form">
+                                        <div class="newsletter-form">
+                                            <input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control" name="EMAIL">
+                                            <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button>
+                                            <div class="clearfix"></div>
+                                            <!-- mailchimp-alerts Start -->
+                                            <div class="mailchimp-alerts">
+                                                <div class="mailchimp-submitting"></div>
+                                                <!-- mailchimp-submitting end -->
+                                                <div class="mailchimp-success"></div>
+                                                <!-- mailchimp-success end -->
+                                                <div class="mailchimp-error"></div>
+                                                <!-- mailchimp-error end -->
+                                            </div>
+                                            <!-- mailchimp-alerts end -->
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="copyright-area wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="footer-text">
+                                <p>© 2018 DesirsEtudiants tout les droits sont reservés.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social">
+                                <ul class="social-links">
+                                    <li><a href=""><i class="fa fa-rss"></i></a></li>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end copyrights -->
+            <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+            <!-- all js files -->
+            <script src="js/all.js"></script>
+            <!-- all plugins -->
+            <script src="js/custom.js"></script>
+            <!-- map -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap"></script>
+</body>
+
+</html>

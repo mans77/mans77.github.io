@@ -1,0 +1,335 @@
+@media screen and (min-width: 1094px) {
+    
+    /* header */
+    #burger_menu{ display: none; }
+    
+    #header_bottom div.nav{
+        border-top: 1px solid #e4e4e4;
+        margin-top: 0;
+        background-color: white;
+        line-height:0;
+    }
+    
+    #header_bottom div.nav:hover{
+        background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+    }
+    
+    #header_bottom .navigation > ul{
+        display: inline-block;
+        width: 100%;
+    }
+
+    #header_bottom .navigation > ul > li{
+        float: left;
+    }
+    
+    #header_bottom div.nav .submenu .container .img{ float: left; margin: 30px 30px 30px 0; max-width: 250px; width: 100%;min-height: 200px;height: 100%;max-height: 250px;}
+
+    #header_bottom div.nav .submenu .container > ul > li.h_child{
+/*         width: 25%; */
+/*         float: left; */
+        border-left: 1px  solid rgba(255, 255, 255, 0.3);
+        padding: 0 13px;
+    }
+    
+    #header_bottom div.nav .submenu .container > ul > li.h_child{ float: left; width: 25%; min-height: 244px !important; }
+    
+    #header_bottom .navigation > ul > li.active{
+        background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+        color: #dadada;
+    }
+    
+    #header_bottom div.nav .submenu{
+        position: absolute;
+        background-color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+        left: 0;
+        right: 0;
+        display: none;
+        z-index: 4;
+        padding-bottom: 55px;
+    }
+    
+    #header_bottom div.nav .submenu .container > ul{
+        width: 1094px;
+        margin: 0 auto;
+        padding: 0 35px;
+        padding-bottom: 50px;
+        padding-top: 31px;
+    }
+    
+    #header_bottom .navigation > ul > li:first-child > a{
+        padding-left: 0;
+    }
+
+    #header_bottom .navigation > ul > li:last-child > a{
+        padding-right: 0;
+    }
+
+    #header_bottom div.nav:hover .navigation > ul > li > span{
+        color: #dadada;
+    }
+    
+    #header_bottom div.nav .navigation > ul > li.active > span{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        height:59px;
+        cursor:pointer;
+    }
+    
+    /*#header_bottom .navigation > ul > li.active .submenu{
+        display: block;
+    }*/
+    
+    #header_bottom .navigation > ul > li > span{
+        color: #181818;
+        font-size: 1.4em;
+        font-weight: 600;
+        line-height: 59px;
+        text-transform: uppercase;
+        padding: 0 10px;
+    }
+    
+    /* /header */
+    
+    .ametys-cms-service.filtered-contents.filtered-contents-abstract.filtered-contents-grid.wrapper {
+	    height: auto;
+	}
+    
+    
+    /* footer */
+    .footer .social{ padding-bottom: 0; }
+    .footer .social span{
+        -webkit-transform: translateY(-31px);
+        -ms-transform: translateY(-31px);
+        transform: translateY(-31px);
+    }
+    
+    .footer .campus{
+        padding: 25px 0;
+    }
+    
+    /* /footer */
+    
+    
+    /* -----
+	   .video-une
+	   ----- */
+    
+    .ametys-cms-content .video-une p:not(.citation) {
+        margin-top: 12px;
+    }
+    
+    /* /.video-une */
+    
+    /* ------------------
+	.intro_vie_campus
+	----------------- */
+    
+/*     .ametys-cms-content .vie_campus { */
+/*         margin-top: 46px; */
+/*     } */
+    
+    .ametys-cms-content .reportage .image_reportage{
+        padding: 0 15px;
+    }
+    
+    .ametys-cms-content .reportage .texte_reportage{
+        background-color: rgba(216, 34, 98, 0.75);
+        bottom: 11px;
+        color: #ffffff;
+        display: block;
+        opacity: 0;
+        left: 5px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+        width: auto;
+        z-index: 1;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    
+    .ametys-cms-content .reportage .texte_reportage a{
+        color: #fff;
+    }
+    
+    .ametys-cms-content .reportage:hover .texte_reportage{
+        opacity: 1;
+        
+    }
+    
+    .ametys-cms-content .intro_vie_campus h2 {
+        line-height: 0.9em;
+        padding-top: 5px;
+    }
+    
+    .ametys-cms-content .intro_vie_campus h3 {
+        margin-top: 15px;
+    }
+    
+    .ametys-cms-content .intro_vie_campus p {
+        margin-top: 12px;
+    }
+    
+    .ametys-cms-content .intro_vie_campus {
+        padding-left: 42px;
+        padding-right: 39px;
+        padding-bottom: 33px;
+    }
+    
+    .ametys-cms-content .vie_campus .col-xs-12 {
+        padding: 0 5px;
+    }
+    
+    .ametys-cms-content .reportage h3 {
+        margin-top: 31px;
+        color:#ffffff;
+    }
+    
+    .ametys-cms-content .reportage p {
+        margin-bottom: 9px;
+        color:#ffffff;
+    }
+    
+    .ametys-cms-content .reportage a.url{
+    	color: #ffffff;
+    }
+    
+    .ametys-cms-content .reportage {
+        margin-bottom: 11px;
+    }
+    
+    .ametys-cms-content .vie_campus .map{
+        height: 256px;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+    
+    .ametys-cms-content .vie_campus .map, .vie_campus .map > img {
+        max-width: 100%;
+    }
+    
+    /* /.intro_vie_campus */
+    
+    .premiere_visite h2 {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+    
+    .premiere_visite h3 {
+        margin-bottom: 10px;
+    }
+    
+    .premiere_visite > .container > .row{
+        padding-bottom: 48px;
+    }
+    
+    .premiere_visite .content-illustration{
+        margin-top: 57px;
+    }
+    
+/*     .premiere_visite .smaller-content p.content-abstract { */
+/*         line-height: 1.2em; */
+/*         margin-bottom: 13px; */
+/*     } */
+    
+    #carousel-1-container .link{
+        display: block;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        z-index: 3;
+        color: #fff;
+        font-size: 1.6em;
+        font-weight: 600;
+        
+    }
+    
+    #carousel-1-container .link a{
+        color: #fff;
+    }
+    
+    #carousel-1-container .link a:hover{
+        color: #0084BB /* AMETYS ("default.default.bgcolor.main") */;
+        text-decoration: none;
+    }
+    
+    /* /accueil */
+    
+    #header_top .direct-access-orgunit > ul > li > div{
+        right: auto;
+        padding-top: 0;
+        padding-bottom: 7px;
+    }
+    
+    #header_top .direct-access-orgunit > ul > li > div a{
+        font-size: 1.4em;
+        line-height: 34px;
+        padding: 0;
+        white-space: nowrap;
+    }
+    
+    #menu_acces a {
+        margin: 7px 0;
+    }
+    
+    #menu_acces li{
+        padding: 11px 16px;
+    }
+    
+    #menu_acces{
+        padding-bottom: 15px;
+        margin-top: 0;
+        margin-bottom: -0;
+    }
+    
+    #header_bottom{
+        padding-bottom: 0;
+    }
+    
+    #header_bottom #logo{
+        margin-bottom: 23px;
+    }
+    
+    #recherche{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    /* TODO vérifier si ces styles ne sont pas dupliqué dans une autre css */
+    
+    #sidebar .infos_utiles.infos_utiles_gris .article.view-main h2 .content-title {
+        display: inline-block;
+        line-height: 1em;
+        padding-bottom: 18px;
+        padding-top: 17px;
+    }
+
+    #sidebar .infos_utiles.infos_utiles_gris .article.view-main p {
+        margin-bottom: 4px;
+    }
+
+    #sidebar a.button-blue {
+        margin-top: 9px;
+    }
+
+    #sidebar .button-sidebar{
+        font-size: 1.6em;
+    }
+    
+    .styles .accordeon-table > ul{
+        padding-bottom: 0;
+    }
+
+    .mtopTab30 {
+        padding-top: 0;    
+    }  
+
+    .mBottom35 {
+        margin-bottom: 35px;
+    }
+    
+    /* /TODO */
+    
+}
